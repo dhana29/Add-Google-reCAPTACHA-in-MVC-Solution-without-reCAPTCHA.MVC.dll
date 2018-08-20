@@ -9,7 +9,10 @@ https://www.google.com/recaptcha/admin
 
 2) Create ASP .Net MVC Template solution
 3) Add View, Controller and Model code from the attachment
-4) Important to add below lines in the web.config file
+4) Add below script into your html head tag
+    <script src="https://www.google.com/recaptcha/api.js"></script>
+5) Important to add below lines in the web.config file
+   
    ```   
      <appSettings>
         <add key="UnobtrusiveJavaScriptEnabled" value="true" />
